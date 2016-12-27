@@ -12,6 +12,7 @@
 		4874E1871E11CD2200CD9349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4874E1851E11CD2200CD9349 /* Main.storyboard */; };
 		4874E1891E11CD2200CD9349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4874E1881E11CD2200CD9349 /* Assets.xcassets */; };
 		4874E18C1E11CD2200CD9349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4874E18A1E11CD2200CD9349 /* LaunchScreen.storyboard */; };
+		48BBEDEE1E12BFE80097DCE8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 48BBEDED1E12BFE80097DCE8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4874E1881E11CD2200CD9349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4874E18B1E11CD2200CD9349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4874E18D1E11CD2200CD9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BBEDED1E12BFE80097DCE8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		4874E1751E11CD2200CD9349 = {
 			isa = PBXGroup;
 			children = (
+				48BBEDED1E12BFE80097DCE8 /* README.md */,
 				4874E1801E11CD2200CD9349 /* SpeechBug1226 */,
 				4874E17F1E11CD2200CD9349 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BBEDEE1E12BFE80097DCE8 /* README.md in Sources */,
 				4874E1841E11CD2200CD9349 /* ViewController.swift in Sources */,
 				4874E1821E11CD2200CD9349 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				4874E1921E11CD2200CD9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
