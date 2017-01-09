@@ -1,6 +1,6 @@
 This project is to demo Apple Bug Report 29814616.
 
-It seems that using an AVSpeechSynthesizer in any way (I tried several) in iOS 10.2 results in a lot of garbage being spewed to the system or debug console.  It happens (1) when initialized and (2) during and immedidately after the first utterance.
+It seems that using an AVSpeechSynthesizer in any way (I tried several) in iOS 10.2 results in a lot of garbage being spewed to the system or debug console.  It happens (1) when initialized and (2) during and immedidately after the first utterance.  Whatever is going on apparently also affects performance, because executing the initializer `AVSpeechSynthesizer()` blocks for 1.2 seconds in iPhone 5 simulator and 1.6 seconds in my actual iPad Mini.
 
 When running this project on my actual iPad Retina Mini, I get
 
